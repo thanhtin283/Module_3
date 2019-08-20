@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+        
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .desc {
+            padding: 15px;
+            text-align: center;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>The Forests</h2>
+    </header>
+    <nav class="desc">
+        <h4>7 most beautiful forests in the world we need to protect</h4>
+        <p>Intact forests are vitally important for mitigating climate change, maintaining water supplies, safeguarding biodiversity, and even protecting human health. Deforestation and desertification – caused by human activities and climate change – pose
+            major challenges to sustainable development and have affected the lives and livelihoods of millions of people in the fight against poverty. Negative impacts for people and the environment are far-reaching and serious. Increased forest loss
+            also means that, without major corrections in land use, the world will fail to meet the crucial Sustainable Development Goals (SDGs).</p>
+        <p>The International Day of Forests is held annually on 21st March to raise awareness of the importance of forests to people and the planet. With collective action now, we can address the global challenge of deforestation, achieve our targets, and
+            ensure that the world today, and in the future, continues to enjoy all of the goods and services that forests provide.</p>
+    </nav>
+    <div class="responsive">
+        <div class="gallery">
+            <a>
+                <img src="https://www.responsiblebusiness.com/wp-content/uploads/2018/03/Hales-Grove-USA-1.jpg" alt="Trolltunga Norway" width="300" height="200">
+            </a>
+
+            <div class="desc">
+                <h4>Gifford Pinchot National Forest, USA</h4>
+                <p>“Conservation means the wise use of the earth and its resources for the lasting good of men.” – Gifford Pinchot
+                </p>
+                <p>Located in Southwest Washington State, the Gifford Pinchot National Forest encompasses 1,368,300 acres of forests, mountains, river valleys, waterfalls, wildernesses, and volcanoes. One of the oldest National Forests in the United States,
+                    it was named after Gifford Pinchot, an active conservationist, who was the first Chief of the Forest Service. He played a key role in developing the early principles of environmental awareness.</p>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a>
+                <img src="https://www.responsiblebusiness.com/wp-content/uploads/2018/03/Banease-Forest-Romania-1.jpg" alt="Trolltunga Norway" width="300" height="200">
+            </a>
+
+            <div class="desc">
+                <h4>2. Banease Forest, Romania</h4>
+                <p>“The clearest way into the universe is through a forest wilderness.” – John Muir</p>
+                <p>Baneasa Forest is a wood in the north of Bucharest, Romania. It remains the largest green space in Bucharest covering 80,000 hectares. After the Romanian Revolution of 1989, a large portion of the area was transferred from state property
+                    back to private interests. As a consequence, Baneasa Forest become a site for real-estate development, which has resulted in the clearing of a large population of trees and woodland.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a>
+                <img src="https://www.responsiblebusiness.com/wp-content/uploads/2018/03/Routeburn-Track-Fiordland-National-Park-New-Zealand-1.jpg" alt="Trolltunga Norway" width="300" height="200">
+            </a>
+
+            <div class="desc">
+                <h4>3. Routeburn Track, Fiordland National Park, New Zealand</h4>
+                <p>“The views of Fiordland from the air are just breathtaking. There are spectacular mountains and waterfalls absolutely everywhere.” – James Cameron</p>
+                <p>One of the most dramatic and beautiful parts of New Zealand; the power of Fiordland’s scenery never fails to enthral travellers. Established in 1952, Fiordland National Park is the largest national park in New Zealand covering over 1.2
+                    million hectares in size, and encompasses mountain, lake, fiord and rainforest environments.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a>
+                <img src="https://www.responsiblebusiness.com/wp-content/uploads/2018/03/Machu-Picchu-Peru-1.jpg" alt="Trolltunga Norway" width="300" height="200">
+            </a>
+
+            <div class="desc">
+                <h4>4. Machu Picchu, Peru</h4>
+                <p>“In the variety of its charms and the power of its spell, I know of no other place in the weld which can compare with it.” – Hiram Bingham</p>
+                <p>Built by the Incas around 1450, Machu Picchu stands 2,430 m above sea-level, in the middle of a tropical mountain forest. The natural setting on the eastern slopes of the Andes encompasses the upper Amazon basin with its rich diversity
+                    of flora and fauna. Consistent concerns have been expressed in recent years about ecosystem degradation through logging, firewood and commercial plant collection, poor waste management, poaching and agricultural encroachment.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+</body>
+
+</html>
